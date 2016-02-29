@@ -26,19 +26,21 @@ Jumbled sentences: True answer perplexity: 4896.8260
 
 ============================================
 4. Trigram with interpolation and backoff estimator 
+==============================================
 Listone(add-lambda) smoothing, lambda = 0.001
 interpolation, with uniLambda = 0.6, biLambda = 0.3, triLambda = 0.1
-==============================================
+
 Training set perplexity:      61.8521
 Test set perplexity:          685.1490
 Test set (no OOV) perplexity:          520.4729
 Jumbled sentences: True answer perplexity: 520.4729
 
 
-=====================
+====================================================
 5. Quadragram with interpolation and backoff estimator
+===================================================
 lambdaQuadra = 0.6, lambdaTriple = 0.2, lambdaBinary = 0.1, lambdaUni = 0.1
-=========================================
+
 Training set perplexity:      172.4509
 Test set  perplexity:          1146.6610
 Jumbled sentences: True answer perplexity: 940.5801
